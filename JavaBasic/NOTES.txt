@@ -1,1 +1,17 @@
-Opps
+this': It helps to point to current class or class's properties
+'super': If we are extending parent class to child then in child class's constructor its mandatory step
+         to call super() which initialize parent class first then child class
+
+OOPS Concepts:
+Abstraction: With help of Method Overriding / interface
+Encapsulation: private fields and public methods ( Getters / Setters)
+Polymorphism: method overloading / constructor overloading
+Inheritance: With interface , abstract class
+Abstract class: Which has abstract and non-abstract methods
+Abstract method: Method which does not have body, Ex. public int calculate(int num1, int num2);
+
+If we are making a method abstract in class then method should be labeled as abstract and class as well,
+ex.
+public abstract class A{
+public abstract display(String data);
+}
